@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "outDir": "./AppCompiled/",
+    "jsx": "react",
+    "sourceMap": false,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "baseUrl": "./App/",
+    "typeRoots": [ "./node_modules/@types/" ] 
+    //"pretty": true,
+    /*"types": [
+      "react",
+      "react-dom",
+      "react-router",
+      "history"
+    ]*/
+    /*
+    "rootDirs": [
+      "./App"
+    ],
+    "paths": {
+      "*": [
+        "*"
+      ]
+    }
+      */
+    //"lib": [ "dom", "es6", "es2015.collection", "es2015.promise", "scripthost" ],
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
